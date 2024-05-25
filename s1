@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Мій Сайт</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Послуги</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Ласкаво просимо на наш сайт!</h2>
+            <p>Ми пропонуємо найкращі послуги для наших клієнтів.</p>
+            <a href="#" class="btn">Дізнатися більше</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Наші переваги</h2>
+            <div class="feature">
+                <h3>Висока якість</h3>
+                <p>Ми гарантуємо високу якість наших послуг.</p>
+            </div>
+            <div class="feature">
+                <h3>Надійність</h3>
+                <p>Ми завжди дотримуємося обіцянок і термінів.</p>
+            </div>
+            <div class="feature">
+                <h3>Підтримка</h3>
+                <p>Ми надаємо цілодобову підтримку нашим клієнтам.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Мій Сайт. Всі права захищені.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
